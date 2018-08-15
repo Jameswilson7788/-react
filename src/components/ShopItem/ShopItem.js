@@ -8,8 +8,7 @@ import '../../../node_modules/font-awesome/css/font-awesome.min.css'
 //comment
 class ShopItem extends Component {
 
-    render() {
-
+    render () {
         const SVGIcon = (props) =>
             <svg className={props.className} pointerEvents="none">
                 <use xlinkHref={props.href} />
