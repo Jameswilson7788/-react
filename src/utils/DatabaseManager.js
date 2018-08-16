@@ -1,5 +1,3 @@
-
-
-export function getDatabaseCart() {
-    
+const getUser = () => {
+    const existingUser = 
 }
