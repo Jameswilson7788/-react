@@ -58,7 +58,7 @@ class Shop extends React.Component {
 
     handleSearch(event) {
         var searchText = event.target.value.toLowerCase();
-        var matched = fakeData.filter(item => item.category.toLowerCase().includes(searchText) || item.name.toLowerCase().includes(searchText));
+        var matched = Data.filter(item => item.category.toLowerCase().includes(searchText) || item.name.toLowerCase().includes(searchText));
         var first10 = matched.slice(0, 10);
         this.setState({
             items:first10
